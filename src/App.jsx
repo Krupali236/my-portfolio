@@ -14,7 +14,7 @@ export default function App() {
       path: "/",
       element: (
         <>
-          <div className="container">
+          <div className="container:full">
             <div className="grid grid-cols-12 h-screen">
               <div className="col-span-2">
                 <Navbar />
@@ -31,7 +31,7 @@ export default function App() {
       path: "/contact",
       element: (
         <>
-          <div className="container">
+          <div className="container:full">
             <div className="grid grid-cols-12 h-screen">
               <div className="col-span-2">
                 <Navbar />
@@ -48,7 +48,7 @@ export default function App() {
       path: "/resume",
       element: (
         <>
-         <div className="container">
+         <div className="container:full ">
             <div className="grid grid-cols-12 h-screen">
               <div className="col-span-2">
                 <Navbar />
@@ -84,7 +84,7 @@ export default function App() {
       path: "/portfolio",
       element: (
         <>
-           <div className="container">
+           <div className="container:full">
             <div className="grid grid-cols-12 h-screen">
               <div className="col-span-2">
                 <Navbar />
@@ -102,7 +102,7 @@ export default function App() {
       path: "/about",
       element: (
         <>
-           <div className="container">
+           <div className="container:full">
             <div className="grid grid-cols-12 h-screen">
               <div className="col-span-2">
                 <Navbar />
