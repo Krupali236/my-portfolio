@@ -13,41 +13,41 @@ const Navbar = () => {
         <ul className="flex flex-col ms-6">
           <NavLink to="/">
             <li
-              className="bg-[#0563bb] rounded-full my-3 h-16 w-16 flex items-center justify-start transition-all duration-700 ease-in-out delay-150
-                                       hover:w-40 hover:delay-150 overflow-hidden cursor-pointer"
+              className="bg-slate-300 hover:bg-blue-300 rounded-full my-3 h-16 w-16 flex items-center justify-start transition-all duration-700 ease-in-out delay-150
+                                   hover:w-40 hover:delay-150 overflow-hidden cursor-pointer"
             >
               <img
                 src={home}
                 alt="home"
                 height="30px"
                 width="30px"
-                className="m-4 transition-all duration-700 ease-in-out"
+                className="m-4 hover:m-2 transition-all duration-700 ease-in-out"
               />
-              <span className="text-white opacity-100 ml-3 transition-opacity duration-700 ease-in-out font-medium text-xl">
+              <span className="text-[#0563bb] opacity-100 ml-3 transition-opacity duration-700 ease-in-out font-medium text-xl">
                 Home
               </span>
             </li>
           </NavLink>
           <NavLink to="/about">
             <li
-              className="bg-[#0563bb] rounded-full my-3 h-16 w-16 flex items-center justify-start transition-all duration-700 ease-in-out delay-150 
-                                        hover:w-40 hover:delay-150 overflow-hidden cursor-pointer"
+              className="bg-slate-300 hover:bg-blue-300  rounded-full my-3 h-16 w-16 flex items-center justify-start transition-all duration-700 ease-in-out delay-150 
+                                          hover:w-40 hover:delay-150 overflow-hidden cursor-pointer"
             >
               <img
                 src={user}
                 alt="about"
                 height="30px"
                 width="30px"
-                className="m-4 transition-all duration-700 ease-in-out"
+                className="m-4 hover:m-2 n-all duration-700 ease-in-out"
               />
-              <span className="text-white opacity-100 ml-3 transition-opacity duration-700 ease-in-out font-medium text-xl">
+              <span className="text-[#0563bb] opacity-100 ml-3 transition-opacity duration-700 ease-in-out font-medium text-xl">
                 About
               </span>
             </li>
           </NavLink>
           <NavLink to="/resume">
             <li
-              className="bg-[#0563bb] rounded-full my-3 h-16 w-16 flex items-center justify-start transition-all duration-700 ease-in-out delay-150 
+              className="bg-slate-300 hover:bg-blue-300  rounded-full my-3 h-16 w-16 flex items-center justify-start transition-all duration-700 ease-in-out delay-150 
                                         hover:w-40 hover:delay-150 overflow-hidden"
             >
               <img
@@ -55,16 +55,16 @@ const Navbar = () => {
                 alt="resume"
                 height="30px"
                 width="30px"
-                className="m-4 transition-all duration-700 ease-in-out"
+                className="m-4 hover:m-2 n-all duration-700 ease-in-out"
               />
-              <span className="text-white opacity-100 ml-3 transition-opacity duration-700 ease-in-out font-medium text-xl">
+              <span className="text-[#0563bb] opacity-100 ml-3 transition-opacity duration-700 ease-in-out font-medium text-xl">
                 Resume
               </span>
             </li>
           </NavLink>
           <NavLink to="/portfolio">
             <li
-              className="bg-[#0563bb] rounded-full my-3 h-16 w-16 flex items-center justify-start transition-all duration-700 ease-in-out delay-150 
+              className="bg-slate-300 hover:bg-blue-300  rounded-full my-3 h-16 w-16 flex items-center justify-start transition-all duration-700 ease-in-out delay-150 
                                         hover:w-40 hover:delay-150 overflow-hidden"
             >
               <img
@@ -72,16 +72,16 @@ const Navbar = () => {
                 alt="portfolio"
                 height="30px"
                 width="30px"
-                className="m-4 transition-all duration-700 ease-in-out"
+                className="m-4 hover:m-2 n-all duration-700 ease-in-out"
               />
-              <span className="text-white opacity-100 ml-3 transition-opacity duration-700 ease-in-out font-medium text-xl">
+              <span className="text-[#0563bb] opacity-100 ml-3 transition-opacity duration-700 ease-in-out font-medium text-xl">
                 Portfolio
               </span>
             </li>
           </NavLink>
           <NavLink to="/contact">
             <li
-              className="bg-[#0563bb] rounded-full my-3 h-16 w-16 flex items-center justify-start transition-all duration-700 ease-in-out delay-150 
+              className="bg-slate-300 hover:bg-blue-300  rounded-full my-3 h-16 w-16 flex items-center justify-start transition-all duration-700 ease-in-out delay-150 
                                         hover:w-40 hover:delay-150 overflow-hidden"
             >
               <img
@@ -89,9 +89,9 @@ const Navbar = () => {
                 alt="contact"
                 height="30px"
                 width="30px"
-                className="m-4 transition-all duration-700 ease-in-out"
+                className="m-4 hover:m-2 n-all duration-700 ease-in-out"
               />
-              <span className="text-white opacity-100 ml-3 transition-opacity duration-700 ease-in-out font-medium text-xl">
+              <span className="text-[#0563bb] opacity-100 ml-3 transition-opacity duration-700 ease-in-out font-medium text-xl">
                 Contact
               </span>
             </li>
