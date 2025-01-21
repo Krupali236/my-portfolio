@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <div className="grid">
-        <h1 className="text-center font-bold text-[40px] py-6">About</h1>
+        <h1 className="text-center font-bold text-[40px] py-3 decoration-2 underline underline-offset-8 ">About</h1>
         <p className="text-center text-xl my-5">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
           distinctio officiis asperiores ad minus cumque vero veritatis quaerat

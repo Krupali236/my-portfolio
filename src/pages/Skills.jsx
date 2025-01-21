@@ -2,7 +2,8 @@ const Skill = () => {
   return (
     <>
       <div className="grid">
-        <h1 className="text-center font-bold my-5">Skills</h1>
+        {/* <h1 className="text-center font-bold my-5  decoration-2 underline underline-offset-8 ">Skills</h1> */}
+        <h1 className="text-center font-bold text-[40px] py-3 decoration-2 underline underline-offset-8">Skills</h1>
         <p className="text-xl text-center my-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex at aut
           porro.

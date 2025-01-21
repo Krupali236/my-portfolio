@@ -1,7 +1,8 @@
 const Resume = () => {
   return (
     <>
-      <h1 className="text-center my-2">Resume</h1>
+      {/* <h1 className="text-center my-2  decoration-2 underline underline-offset-8 ">Resume</h1> */}
+      <h1 className="text-center font-bold text-[40px] py-3 decoration-2 underline underline-offset-8">Resume</h1>
       <p className="text-center text-xl my-3">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi placeat
         recusandae consectetur rerum laborum nisi! Aspernatur tempora facilis
