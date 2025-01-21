@@ -2,32 +2,35 @@ const Portfolio = () => {
   const portfolioData = [
     {
       id: 1,
-      title: "HTML Form",
+      title: "HTML Register Form",
       category: "HTML",
       description: "Using Html elements",
-      image: "src/assets/images/html-form-11.png",
+      image: "src/assets/images/html-form-1.png",
       link: "https://github.com/Krupali236/html-form1/tree/main",
     },
     {
       id: 2,
-      title: "Template",
+      title: "HTML Contact Us Form",
       category: "HTML",
       description: "Using Html elements",
-      image: "",
+      image: "src/assets/images/html-form-2.png",
+      link: "https://github.com/Krupali236/html-form2",
     },
     {
       id: 3,
-      title: "Template",
+      title: "HTML Login Form",
       category: "HTML",
       description: "Using Html elements",
-      image: "",
+      image: "src/assets/images/html-form-3.png",
+      link:"https://github.com/Krupali236/html-form3"
     },
     {
       id: 4,
       title: "Template",
       category: "HTML",
       description: "Using Html elements",
-      image: "",
+      image: "src/assets/images/css-demo-page.png",
+      link:"https://github.com/Krupali236/css-demo-page"
     },
     {
       id: 5,
@@ -55,7 +58,7 @@ const Portfolio = () => {
         perferendis!
       </p>
 
-      <div className="container mt-10 mb-3">
+      <div className="container mt-10 mb-3 px-4">
         <div className="flex justify-center my-5">
           <button className="bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700">
             All
@@ -81,7 +84,7 @@ const Portfolio = () => {
                 <img
                   src={ele.image}
                   alt={ele.title}
-                  className="h-auto w-full rounded-t-xl"
+                  className="h-72 w-full rounded-t-xl"
                 />
                 <h1 className="text-center text-lg font-bold">{ele.title}</h1>
                 <p className="text-center">{ele.description}</p>
