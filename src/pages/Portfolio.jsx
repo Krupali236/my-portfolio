@@ -22,29 +22,111 @@ const Portfolio = () => {
       category: "HTML",
       description: "Using Html elements",
       image: "src/assets/images/html-form-3.png",
-      link:"https://github.com/Krupali236/html-form3"
+      link: "https://github.com/Krupali236/html-form3",
     },
     {
       id: 4,
-      title: "Template",
-      category: "HTML",
-      description: "Using Html elements",
+      title: "CSS Template",
+      category: "CSS",
+      description: "Using CSS elements",
       image: "src/assets/images/css-demo-page.png",
-      link:"https://github.com/Krupali236/css-demo-page"
+      link: "https://github.com/Krupali236/css-demo-page",
     },
     {
       id: 5,
-      title: "Template",
-      category: "HTML",
-      description: "Using Html elements",
-      image: "",
+      title: "CSS Sign in page template",
+      category: "CSS",
+      description: "Using CSS elements",
+      image: "src/assets/images/css-signin-page.png",
+      link: "https://github.com/Krupali236/css-SignIn",
     },
     {
       id: 6,
-      title: "Template",
+      title: "CSS Template",
+      category: "CSS",
+      description: "Using CSS elements",
+      image: "src/assets/images/css-signup-page.png",
+      link: "https://github.com/Krupali236/css-page-template",
+    },
+    {
+      id: 7,
+      title: "CSS wesite template",
+      category: "CSS",
+      description: "Using CSS elements",
+      image: "src/assets/images/css-template-design.png",
+      link: "https://github.com/Krupali236/css-website-template",
+    },
+    {
+      id: 8,
+      title: "CSS Modern Chair Layout Template",
+      category: "CSS",
+      description: "Using CSS elements",
+      image: "src/assets/images/css-wesite-template.png",
+      link: "https://github.com/Krupali236/css-modern-chair-layout",
+    },
+    {
+      id: 9,
+      title: "CSS Template",
+      category: "CSS",
+      description: "Using CSS elements",
+      image: "src/assets/images/css-template.png",
+      link: "https://github.com/Krupali236/css-template-eduGrids",
+    },
+    {
+      id: 10,
+      title: "CSS Contact Us Form",
+      category: "CSS",
+      description: "Using CSS elements",
+      image: "src/assets/images/css-template-softypinko.png",
+      link: "https://github.com/Krupali236/css-template-shoftypinko",
+    },
+    {
+      id: 3,
+      title: "HTML Login Form",
       category: "HTML",
       description: "Using Html elements",
-      image: "",
+      image: "src/assets/images/html-form-3.png",
+      link: "https://github.com/Krupali236/html-form3",
+    },
+    {
+      id: 4,
+      title: "CSS Template",
+      category: "CSS",
+      description: "Using CSS elements",
+      image: "src/assets/images/css-demo-page.png",
+      link: "https://github.com/Krupali236/css-demo-page",
+    },
+    {
+      id: 5,
+      title: "CSS Sign in page template",
+      category: "CSS",
+      description: "Using CSS elements",
+      image: "src/assets/images/css-signin-page.png",
+      link: "https://github.com/Krupali236/css-SignIn",
+    },
+    {
+      id: 6,
+      title: "CSS Template",
+      category: "CSS",
+      description: "Using CSS elements",
+      image: "src/assets/images/css-signup-page.png",
+      link: "https://github.com/Krupali236/css-page-template",
+    },
+    {
+      id: 7,
+      title: "CSS wesite template",
+      category: "CSS",
+      description: "Using CSS elements",
+      image: "src/assets/images/css-template-design.png",
+      link: "https://github.com/Krupali236/css-website-template",
+    },
+    {
+      id: 8,
+      title: "CSS Modern Chair Layout Template",
+      category: "CSS",
+      description: "Using CSS elements",
+      image: "src/assets/images/css-wesite-template.png",
+      link: "https://github.com/Krupali236/css-modern-chair-layout",
     },
   ];
   return (
@@ -77,15 +159,17 @@ const Portfolio = () => {
           </button>
         </div>
 
-        <div className="grid grid-cols-4 my-4 gap-4">
+        <div className="grid grid-cols-3 my-4 gap-4">
           {portfolioData.map((ele, ind) => (
             <div className="columns-1" key={ind}>
               <div className="border-2 rounded-xl h-full">
+                <div className="h-72">
                 <img
                   src={ele.image}
                   alt={ele.title}
-                  className="h-72 w-full rounded-t-xl"
+                  className="h-full w-full rounded-t-xl"
                 />
+                </div>
                 <h1 className="text-center text-lg font-bold">{ele.title}</h1>
                 <p className="text-center">{ele.description}</p>
                 <p className="text-center">{ele.category}</p>
