@@ -10,7 +10,6 @@ const Contact = () => {
     <>
       <div className="flex flex-col min-h-screen">
         <div className="flex-grow">
-          {/* <h1 className="text-center font-bold mt-24 decoration-2 underline underline-offset-8 ">Contact</h1> */}
           <h1 className="text-center font-bold text-[40px] py-3 decoration-2 underline underline-offset-8">
             Contact
           </h1>
@@ -84,7 +83,6 @@ const Contact = () => {
               </div>
               <div className="grid my-5 justify-center">
                 <button className="bg-[#0563bb] text-white w-56 items-center rounded-full">
-                  {" "}
                   Send Message
                 </button>
               </div>
@@ -98,8 +96,8 @@ const Contact = () => {
             mollitia.
           </p>
           <ul className="flex justify-center items-center py-5">
-            <li className="mx-2 bg-[#b6babe] rounded-full w-10 h-10 flex justify-center cursor-pointer hover:bg-slate-300">
-              <img src={facebook} alt="facebook" width="20px" height="20px" />
+            <li className="mx-2 bg-[#b6babe] rounded-full w-10 h-10 cursor-pointer hover:bg-slate-300">
+             <a href="#" className=" flex justify-center"><img src={facebook} alt="facebook" width="20px" height="20px" /></a> 
             </li>
             <li className="mx-2 bg-[#b6babe] rounded-full w-10 h-10 flex justify-center cursor-pointer hover:bg-slate-300">
               <img src={instagrem} alt="instagram" width="20px" height="20px" />
