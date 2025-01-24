@@ -1,3 +1,4 @@
+import { useState } from "react";
 const Portfolio = () => {
   const portfolioData = [
     {
@@ -105,30 +106,46 @@ const Portfolio = () => {
       link: "https://github.com/Krupali236/css-template-lugx",
     },
     {
-      id: 6,
-      title: "CSS Template",
-      category: "CSS",
-      description: "Using CSS elements",
-      image: "src/assets/images/css-signup-page.png",
-      link: "https://github.com/Krupali236/css-page-template",
+      id: 14,
+      title: "Calculator",
+      category: "Javascript",
+      description: "Using Javascript",
+      image: "src/assets/images/js-calculator.png",
+      link: "https://github.com/Krupali236/calculator",
     },
     {
-      id: 7,
-      title: "CSS wesite template",
-      category: "CSS",
-      description: "Using CSS elements",
-      image: "src/assets/images/css-template-design.png",
-      link: "https://github.com/Krupali236/css-website-template",
+      id: 15,
+      title: "Javascript Template",
+      category: "Javascript",
+      description: "Using Javascript",
+      image: "src/assets/images/js-babyoutlet-template.png",
+      link: "https://github.com/Krupali236/js-babyoutlet-template",
     },
     {
-      id: 8,
-      title: "CSS Modern Chair Layout Template",
-      category: "CSS",
-      description: "Using CSS elements",
-      image: "src/assets/images/css-wesite-template.png",
-      link: "https://github.com/Krupali236/css-modern-chair-layout",
+      id: 16,
+      title: "Random Quote",
+      category: "Javascript",
+      description: "Using Javascript",
+      image: "src/assets/images/js-random-quote.png",
+      link: "https://github.com/Krupali236/js-random-quote",
     },
   ];
+  const [filteredData, setFilteredData] = useState(portfolioData); // Use filteredData to store the filtered results
+
+  const handleClick = (category) => {
+    console.log("click");
+    console.log(category, "category");
+    if (category == "all") {
+      setFilteredData(portfolioData); // If 'all' is selected, show all items
+    } else {
+      portfolioData.filter((ele) => {
+        const filtered = portfolioData.filter(
+          (ele) => ele.category === category
+        );
+        setFilteredData(filtered); // Update the state with the filtered items based on category
+      });
+    }
+  };
   return (
     <>
       <h1 className="text-center font-bold text-[40px] py-3  decoration-2 underline underline-offset-8">
@@ -142,33 +159,48 @@ const Portfolio = () => {
 
       <div className="container mt-10 mb-3 px-4">
         <div className="flex justify-center my-5">
-          <button className="bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700">
+          <button
+            className="bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700"
+            onClick={() => handleClick("all")}
+          >
             All
           </button>
-          <button className="bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700">
+          <button
+            className="bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700"
+            onClick={() => handleClick("HTML")}
+          >
             HTML
           </button>
-          <button className="bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700">
+          <button
+            className="bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700"
+            onClick={() => handleClick("CSS")}
+          >
             CSS
           </button>
-          <button className="bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700">
+          <button
+            className="bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700"
+            onClick={() => handleClick("Javascript")}
+          >
             Javascript
           </button>
-          <button className="bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700">
+          <button
+            className="bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700"
+            onClick={() => handleClick("React")}
+          >
             React
           </button>
         </div>
 
         <div className="grid grid-cols-3 my-4 gap-4">
-          {portfolioData.map((ele, ind) => (
+          {filteredData.map((ele, ind) => (
             <div className="columns-1" key={ind}>
               <div className="border-2 rounded-xl h-full">
                 <div className="h-72">
-                <img
-                  src={ele.image}
-                  alt={ele.title}
-                  className="h-full w-full rounded-t-xl"
-                />
+                  <img
+                    src={ele.image}
+                    alt={ele.title}
+                    className="h-full w-full rounded-t-xl"
+                  />
                 </div>
                 <h1 className="text-center text-lg font-bold">{ele.title}</h1>
                 <p className="text-center">{ele.description}</p>
