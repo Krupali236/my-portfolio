@@ -1,9 +1,4 @@
-import React, { useState } from "react";
-import home from "./../assets/home.svg";
-import user from "./../assets/user.svg";
-import document from "./../assets/document.svg";
-import portfolio from "./../assets/portfolio.svg";
-import contact from "./../assets/contact.svg";
+import React from "react";
 import facebook from "./../assets/facebook.svg";
 import instagram from "./../assets/instagram.svg";
 import linkedin from "./../assets/linkedin.svg";
