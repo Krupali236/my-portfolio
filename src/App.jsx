@@ -7,6 +7,7 @@ import About from "./pages/About";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 import Navbar from "./navbar/navbar";
+import Footer from "./pages/Footer";
 
 export default function App() {
   const route = createBrowserRouter([
@@ -15,7 +16,7 @@ export default function App() {
       element: (
         <>
           <div className="container:full">
-            <div className="grid grid-cols-12 h-screen">
+            <div className="bg-[url(/src/assets/images/bg.jpg)] grid grid-cols-12 h-screen">
               <div className="col-span-2">
                 <Navbar />
               </div>
@@ -40,6 +41,9 @@ export default function App() {
                 <Contact />
               </div>
             </div>
+            <div className="grid w-full">
+              <Footer />
+            </div>
           </div>
         </>
       ),
@@ -48,7 +52,7 @@ export default function App() {
       path: "/resume",
       element: (
         <>
-         <div className="container:full ">
+          <div className="container:full ">
             <div className="grid grid-cols-12 h-screen">
               <div className="col-span-2">
                 <Navbar />
@@ -84,7 +88,7 @@ export default function App() {
       path: "/portfolio",
       element: (
         <>
-           <div className="container:full">
+          <div className="container:full">
             <div className="grid grid-cols-12 h-screen">
               <div className="col-span-2">
                 <Navbar />
@@ -102,7 +106,7 @@ export default function App() {
       path: "/about",
       element: (
         <>
-           <div className="container:full">
+          <div className="container:full">
             <div className="grid grid-cols-12 h-screen">
               <div className="col-span-2">
                 <Navbar />
