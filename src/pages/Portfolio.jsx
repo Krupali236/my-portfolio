@@ -131,8 +131,9 @@ const Portfolio = () => {
     },
   ];
   const [filteredData, setFilteredData] = useState(portfolioData); // Use filteredData to store the filtered results
-
+  const [activeCategory, setActiveCategory] = useState("all"); // Track the active category
   const handleClick = (category) => {
+    setActiveCategory(category); // Update the active category
     console.log("click");
     console.log(category, "category");
     if (category == "all") {
@@ -160,31 +161,41 @@ const Portfolio = () => {
       <div className="container mt-10 mb-3 px-4">
         <div className="flex justify-center my-5">
           <button
-            className="bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700"
+            className={`bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700 ${
+              activeCategory === "all" ? "bg-slate-700" : ""
+            }`}
             onClick={() => handleClick("all")}
           >
             All
           </button>
           <button
-            className="bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700"
+            className={`bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700 ${
+              activeCategory === "HTML" ? "bg-slate-700" : ""
+            }`}
             onClick={() => handleClick("HTML")}
           >
             HTML
           </button>
           <button
-            className="bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700"
+            className={`bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700 ${
+              activeCategory === "CSS" ? "bg-slate-700" : ""
+            }`}
             onClick={() => handleClick("CSS")}
           >
             CSS
           </button>
           <button
-            className="bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700"
+            className={`bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700 ${
+              activeCategory === "Javascript" ? "bg-slate-700" : ""
+            }`}
             onClick={() => handleClick("Javascript")}
           >
             Javascript
           </button>
           <button
-            className="bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700"
+            className={`bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700 ${
+              activeCategory === "React" ? "bg-slate-700" : ""
+            }`}
             onClick={() => handleClick("React")}
           >
             React
