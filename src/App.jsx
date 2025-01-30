@@ -10,6 +10,7 @@ import Navbar from "./navbar/navbar";
 import Footer from "./pages/Footer";
 
 export default function App() {
+  // Add a fixed delay so you can see the loading state
   const route = createBrowserRouter([
     {
       path: "/",

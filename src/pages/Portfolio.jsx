@@ -129,6 +129,14 @@ const Portfolio = () => {
       image: "src/assets/images/js-random-quote.png",
       link: "https://github.com/Krupali236/js-random-quote",
     },
+    {
+      id: 17,
+      title: "Todo List",
+      category: "React",
+      description: "Using Javascript",
+      image: "src/assets/images/react-todo.png",
+      link: "https://github.com/Krupali236/react-todolist",
+    },
   ];
   const [filteredData, setFilteredData] = useState(portfolioData); // Use filteredData to store the filtered results
   const [activeCategory, setActiveCategory] = useState("all"); // Track the active category
@@ -204,9 +212,9 @@ const Portfolio = () => {
 
         <div className="grid grid-cols-3 my-4 gap-4">
           {filteredData.map((ele, ind) => (
-            <div className="columns-1" key={ind}>
+            <div className="columns-1 h-full" key={ind}>
               <div className="border-2 rounded-xl h-full">
-                <div className="h-72">
+                <div className="h-80">
                   <img
                     src={ele.image}
                     alt={ele.title}
