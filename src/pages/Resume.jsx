@@ -1,3 +1,5 @@
+import resume from "../../../../Krupali-Lalakiya.pdf"
+
 const Resume = () => {
   return (
     <>
@@ -97,7 +99,7 @@ const Resume = () => {
           </p>
           <p className="mx-5 border-s-2 border-blue-600 px-5 pb-7 text-md font-medium text-slate-600">
             R. P. Bhalodiya College
-          </p>     
+          </p>
 
           <h3 className="text-xl font-medium text-slate-500">
             <span className="px-3 mx-2 border-[3px] rounded-full border-blue-600"></span>
@@ -117,6 +119,18 @@ const Resume = () => {
             branding.
           </p>
         </div>
+      </div>
+      <div className="my-5 float-end me-7">
+        <button className="bg-blue-700 text-white">
+          <a
+            href={resume}
+            className="text-white hover:text-white"
+            download="Krupali-Lalakiya-Resume.pdf"
+          >
+            {" "}
+            Download Resume
+          </a>
+        </button>
       </div>
     </>
   );
