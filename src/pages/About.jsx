@@ -17,10 +17,10 @@ const About = () => {
         </p>
       </div>
       <div className="grid grid-cols-12 gap-7 my-5">
-        <div className="col-span-3">
+        <div className="col-span-4">
           <img src={bg} alt="bg" className="h-full w-full my-5" />
         </div>
-        <div className="col-span-9">
+        <div className="col-span-8">
           <h3 className="font-bold text-4xl my-3">Frontend Developer</h3>
           <p className="text-2xl my-3 font-semibold italic">Krupali Lalakiya</p>
           <div className="grid grid-cols-2">
@@ -100,7 +100,7 @@ const About = () => {
             </div>
           </div>
           <div className="grid">
-            <p className="text-xl">
+            <p className="text-lg font-semibold">
               Feel free to check out my projects and get in touch! Let’s build
               something amazing together.
             </p>
