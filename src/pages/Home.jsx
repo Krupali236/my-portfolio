@@ -42,8 +42,7 @@ export default function Home() {
                 className="mx-4"
               />
             </a>
-          </div>
-      
+          </div>      
         </div>
       </div>
     </>
