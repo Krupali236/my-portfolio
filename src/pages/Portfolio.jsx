@@ -1,11 +1,14 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 const Portfolio = () => {
+  const navigate = useNavigate();
   const portfolioData = [
     {
       id: 1,
-      title: "HTML Register Form",
+      title: "HTML Registration Form",
       category: "HTML",
-      description: "Using Html elements",
+      description:
+        "Designed a responsive and user-friendly HTML form with structured input fields, validation, and a modern UI. ",
       image: "src/assets/images/html-form-1.png",
       link: "https://github.com/Krupali236/html-form1/tree/main",
     },
@@ -13,7 +16,8 @@ const Portfolio = () => {
       id: 2,
       title: "HTML Contact Us Form",
       category: "HTML",
-      description: "Using Html elements",
+      description:
+        "Designed a responsive and user-friendly HTML form with structured input fields, validation, and a modern UI using gradient.",
       image: "src/assets/images/html-form-2.png",
       link: "https://github.com/Krupali236/html-form2",
     },
@@ -21,15 +25,16 @@ const Portfolio = () => {
       id: 3,
       title: "HTML Login Form",
       category: "HTML",
-      description: "Using Html elements",
+      description:
+        "Designed a responsive and user-friendly HTML form with structured input fields, validation, and a modern UI. Styled using CSS/Tailwind for better accessibility and enhanced user experience.",
       image: "src/assets/images/html-form-3.png",
       link: "https://github.com/Krupali236/html-form3",
     },
     {
       id: 4,
-      title: "CSS Template",
+      title: "CSS Login Template",
       category: "CSS",
-      description: "Using CSS elements",
+      description: "Created visually appealing and responsive CSS form designs and templates with clean layouts, custom styling, and smooth user interactions. ",
       image: "src/assets/images/css-demo-page.png",
       link: "https://github.com/Krupali236/css-demo-page",
     },
@@ -37,7 +42,7 @@ const Portfolio = () => {
       id: 5,
       title: "CSS Sign in page template",
       category: "CSS",
-      description: "Using CSS elements",
+      description: " Built interactive and accessible CSS layouts tailored for various web applications, ensuring pixel-perfect design, smooth transitions, and optimized performance.",
       image: "src/assets/images/css-signin-page.png",
       link: "https://github.com/Krupali236/css-SignIn",
     },
@@ -45,7 +50,7 @@ const Portfolio = () => {
       id: 6,
       title: "CSS Template",
       category: "CSS",
-      description: "Using CSS elements",
+      description: "Styled using CSS for better accessibility and enhanced user experience.",
       image: "src/assets/images/css-signup-page.png",
       link: "https://github.com/Krupali236/css-page-template",
     },
@@ -53,7 +58,7 @@ const Portfolio = () => {
       id: 7,
       title: "CSS wesite template",
       category: "CSS",
-      description: "Using CSS elements",
+      description: "Developed dynamic and visually appealing CSS layouts that enhance user experience with intuitive navigation, smooth animations, and optimized performance.",
       image: "src/assets/images/css-template-design.png",
       link: "https://github.com/Krupali236/css-website-template",
     },
@@ -61,7 +66,7 @@ const Portfolio = () => {
       id: 8,
       title: "CSS Modern Chair Layout Template",
       category: "CSS",
-      description: "Using CSS elements",
+      description: "Created scalable and reusable CSS layout templates using modern techniques like CSS Grid, Flexbox, and media queries to ensure cross-browser compatibility and responsiveness.",
       image: "src/assets/images/css-wesite-template.png",
       link: "https://github.com/Krupali236/css-modern-chair-layout",
     },
@@ -69,7 +74,7 @@ const Portfolio = () => {
       id: 9,
       title: "CSS Template",
       category: "CSS",
-      description: "Using CSS elements",
+      description: "Built interactive and accessible CSS layouts tailored for various web applications, ensuring pixel-perfect design, smooth transitions, and optimized performance.",
       image: "src/assets/images/css-template.png",
       link: "https://github.com/Krupali236/css-template-eduGrids",
     },
@@ -77,7 +82,7 @@ const Portfolio = () => {
       id: 10,
       title: "CSS Template",
       category: "CSS",
-      description: "Using CSS elements",
+      description: "Developed elegant and fully responsive CSS form templates with custom styling, smooth animations, and intuitive layouts.",
       image: "src/assets/images/css-template-softypinko.png",
       link: "https://github.com/Krupali236/css-template-shoftypinko",
     },
@@ -85,7 +90,7 @@ const Portfolio = () => {
       id: 11,
       title: "CSS Template",
       category: "CSS",
-      description: "Using CSS elements",
+      description: "Built interactive and accessible CSS layouts tailored for various web applications, ensuring pixel-perfect design, smooth transitions, and optimized performance.",
       image: "src/assets/images/css-template-inance.png",
       link: "https://github.com/Krupali236/css-template-inance",
     },
@@ -93,7 +98,7 @@ const Portfolio = () => {
       id: 12,
       title: "CSS Template",
       category: "CSS",
-      description: "Using CSS elements",
+      description: "Created scalable and reusable CSS layout templates using modern techniques like CSS Grid, Flexbox, and media queries to ensure cross-browser compatibility and responsiveness.",
       image: "src/assets/images/css-template-mdrn.png",
       link: "https://github.com/Krupali236/css-template-mdrn",
     },
@@ -101,7 +106,7 @@ const Portfolio = () => {
       id: 13,
       title: "CSS Sign in page template",
       category: "CSS",
-      description: "Using CSS elements",
+      description: "Engineered well-structured and responsive web layouts with CSS, focusing on usability, accessibility, and seamless user interaction across all screen sizes.",
       image: "src/assets/images/css-template-lugx.png",
       link: "https://github.com/Krupali236/css-template-lugx",
     },
@@ -109,7 +114,7 @@ const Portfolio = () => {
       id: 14,
       title: "Calculator",
       category: "Javascript",
-      description: "Using Javascript",
+      description: "Developed a fully functional JavaScript calculator with a clean UI, real-time calculations, and error handling. Designed for responsiveness and smooth user interaction using HTML, CSS, and vanilla JavaScript.",
       image: "src/assets/images/js-calculator.png",
       link: "https://github.com/Krupali236/calculator",
     },
@@ -117,7 +122,7 @@ const Portfolio = () => {
       id: 15,
       title: "Javascript Template",
       category: "Javascript",
-      description: "Using Javascript",
+      description: "Created a dynamic JavaScript template with a built-in filtering system, allowing users to search and sort data effortlessly. Designed for a smooth, interactive experience with using vanilla JavaScript.",
       image: "src/assets/images/js-babyoutlet-template.png",
       link: "https://github.com/Krupali236/js-babyoutlet-template",
     },
@@ -125,7 +130,7 @@ const Portfolio = () => {
       id: 16,
       title: "Random Quote",
       category: "Javascript",
-      description: "Using Javascript",
+      description: "Built a JavaScript-powered random quote generator that displays a new inspirational quote each time a button is clicked. Integrated smooth transitions and an intuitive user interface for an engaging experience.",
       image: "src/assets/images/js-random-quote.png",
       link: "https://github.com/Krupali236/js-random-quote",
     },
@@ -133,7 +138,7 @@ const Portfolio = () => {
       id: 17,
       title: "Todo List",
       category: "React",
-      description: "Using Javascript",
+      description: "Developed a simple and interactive JavaScript Todo app that allows users to add, edit, and delete tasks. Features include task status toggling, local storage for persistence, and a clean, user-friendly interface.",
       image: "src/assets/images/react-todo.png",
       link: "https://github.com/Krupali236/react-todolist",
     },
@@ -160,14 +165,14 @@ const Portfolio = () => {
       <h1 className="text-center font-bold text-[40px] py-3  decoration-2 underline underline-offset-8">
         Portfolio
       </h1>
-      <p className="text-center my-4">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, illum!
-        Mollitia quas incidunt delectus nobis sequi minima quod aspernatur
-        perferendis!
+      <p className="text-center my-4 italic text-xl">
+        Here are some of the projects I've worked on, showcasing my skills in
+        React.js, frontend development, and UI/UX design. Click on any project
+        to learn more!
       </p>
 
       <div className="container mt-10 mb-3 px-4">
-        <div className="flex justify-center my-5">
+        <div className="flex justify-center my-5 mb-10">
           <button
             className={`bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700 ${
               activeCategory === "all" ? "bg-slate-700" : ""
@@ -210,10 +215,10 @@ const Portfolio = () => {
           </button>
         </div>
 
-        <div className="grid grid-cols-3 my-4 gap-4">
+        <div className="grid grid-cols-3 my-4 gap-10">
           {filteredData.map((ele, ind) => (
             <div className="columns-1 h-full" key={ind}>
-              <div className="border-2 rounded-xl h-full">
+              <div className="border-[1px] rounded-xl h-full">
                 <div className="h-80">
                   <img
                     src={ele.image}
@@ -221,17 +226,25 @@ const Portfolio = () => {
                     className="h-full w-full rounded-t-xl"
                   />
                 </div>
-                <h1 className="text-center text-lg font-bold">{ele.title}</h1>
-                <p className="text-center">{ele.description}</p>
-                <p className="text-center">{ele.category}</p>
-                <p className="text-center">
-                  <a className="font-normal text-slate-700" href={ele.link}>
-                    Git Link
+                <h1 className=" ps-3 my-3 text-lg font-bold">{ele.title}</h1>
+                <p className=" ps-3 my-3">{ele.description}</p>
+                <p className=" ps-3 my-3">
+                  {" "}
+                  <span className="font-semibold">Technologies : </span>{" "}
+                  {ele.category}
+                </p>
+                <p className=" ps-3 my-3">
+                  <a className="font-semibold text-slate-700" href={ele.link}>
+                    🐙 GitHub
                   </a>
                 </p>
               </div>
             </div>
           ))}
+        </div>
+        <div className="flex justify-center items-center flex-col">
+        <p className="text-center font-semibold italic my-5">Want to work together or see more of my work? Let’s connect! </p>
+        <button className="bg-[#0563bb] text-white rounded-3xl cursor-pointer" onClick={()=>navigate("/contact")}> Contact Me</button>
         </div>
       </div>
     </>

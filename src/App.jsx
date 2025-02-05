@@ -34,16 +34,18 @@ export default function App() {
       element: (
         <>
           <div className="container:full">
-            <div className="grid grid-cols-12 h-screen">
-              <div className="col-span-2">
-                <Navbar />
+            <div className="columns-1">
+              <div className="grid grid-cols-12">
+                <div className="col-span-2 h-96 z-10">
+                  <Navbar />
+                </div>
+                <div className="col-span-10">
+                  <Contact />
+                </div>
               </div>
-              <div className="col-span-10">
-                <Contact />
+              <div className="grid w-full mt-12 ">
+                <Footer />
               </div>
-            </div>
-            <div className="grid w-full">
-              <Footer />
             </div>
           </div>
         </>

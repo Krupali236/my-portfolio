@@ -10,43 +10,40 @@ const Footer = () => {
           Krupali Lalakiya
         </h1>
         <p className="text-center italic py-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-          mollitia.
-        </p>
-        <ul className="flex justify-center items-center py-5">
-          <li className="mx-2 bg-[#b6babe] rounded-full w-10 h-10 cursor-pointer hover:bg-slate-300">
-            <a href="#" className=" flex justify-center">
+         Krupali Lalakiya © 2025 . All Rights Reserved.</p>
+        <ul className="flex justify-center items-stretch py-5">
+          <li className="mx-2 bg-[#b6babe] rounded-full w-10 h-10 cursor-pointer hover:bg-slate-300 flex items-center justify-center">
+            <a href="https://www.facebook.com/share/1ArCkF7Q8d/" className="cursor-pointer">
               <img src={facebook} alt="facebook" width="20px" height="20px" />
             </a>
           </li>
-          <li className="mx-2 bg-[#b6babe] rounded-full w-10 h-10 flex justify-center cursor-pointer hover:bg-slate-300">
-            <img src={instagrem} alt="instagram" width="20px" height="20px" />
+          <li className="mx-2 bg-[#b6babe] rounded-full w-10 h-10 cursor-pointer hover:bg-slate-300 flex items-center justify-center">
+            <a href="https://www.instagram.com/krupali_.kishan_.27?igsh=MWJjNnM5OG96dDhuNQ==" className="cursor-pointer">
+              <img src={instagrem} alt="instagram" width="20px" height="20px" />
+            </a>
           </li>
-          <li className="mx-2 bg-[#b6babe] rounded-full w-10 h-10 flex justify-center cursor-pointer hover:bg-slate-300">
-            <img src={linkedin} alt="linkedin" width="20px" height="20px" />
+          <li className="mx-2 bg-[#b6babe] rounded-full w-10 h-10  cursor-pointer hover:bg-slate-300 flex items-center justify-center">
+            <a href="https://www.linkedin.com/in/krupali-lalakiya-a23294228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="cursor-pointer">
+              <img src={linkedin} alt="linkedin" width="20px" height="20px" />
+            </a>
           </li>
-          <li className="mx-2 bg-[#b6babe] rounded-full w-10 h-10 flex justify-center cursor-pointer hover:bg-slate-300">
+          <li className="mx-2 bg-[#b6babe] rounded-full w-10 h-10 cursor-pointer hover:bg-slate-300 flex items-center justify-center">
             {" "}
-            <img src={git} alt="git" width="20px" height="20px" />
+            <a href="https://github.com/Krupali236" className="cursor-pointer">
+              <img src={git} alt="git" width="20px" height="20px" />
+            </a>
           </li>
         </ul>
         <div className="w-9/12 mx-auto border-[1px] border-slate-300 my-2"></div>
         <div className="w-full text-center py-3">
-          <p className="my-2">
-            Copyright <b> Alex Smith</b> All right Reserved
+          <p className="my-2 italic">
+          Developed with React.js 
           </p>
           <p className="my-4">
-            Designed by{" "}
-            <a href="#" className="text-[#0563bb] font-normal">
-              Tailwindcss
-            </a>{" "}
-            Distributed by{" "}
-            <a href="#" className="text-[#0563bb] font-normal">
-              Themewagon
-            </a>
+          Designed & Built by Krupali Lalakiya | © 2025
           </p>
         </div>
-      </footer>    
+      </footer>
     </>
   );
 };
