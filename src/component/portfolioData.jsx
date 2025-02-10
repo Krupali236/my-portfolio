@@ -163,11 +163,101 @@ export const portfolioData = [
   {
     id: 17,
     title: "Todo List",
-    technology: "HTML , CSS , Bootstrap",
+    technology: "HTML , CSS , TailwindCSS , ReactJS",
     category: "Application",
     description:
       "Developed a simple and interactive JavaScript Todo app that allows users to add, edit, and delete tasks. Features include task status toggling, local storage for persistence, and a clean, user-friendly interface.",
     image: "src/assets/images/react-todo.png",
     link: "https://github.com/Krupali236/react-todolist",
   },
-];
+  {
+    id: 18,
+    title: "Todo List",
+    technology: "HTML , CSS , Bootstrap , Javascript",
+    category: "Application",
+    description:
+      "Developed a simple and interactive JavaScript Todo app that allows users to add, edit, and delete tasks. Features include task status toggling, local storage for persistence, and a clean, user-friendly interface.",
+    image: "src/assets/images/js-todo.png",
+    link: "https://github.com/Krupali236/js-todolist",
+  },
+  {
+    id: 19,
+    title: "Inquiry Form With CRUD",
+    technology: "HTML , CSS , Bootstrap , Javascript",
+    category: "Form",
+    description:
+      "Developed a dynamic inquiry form with JavaScript, featuring real-time validation for user inputs and local storage integration to retain submitted data. Ensured a smooth and user-friendly experience with error handling and responsive design.",
+    image: "src/assets/images/js-inquiry-form.png",
+    link: "https://github.com/Krupali236/js-inquiry-form",
+  },
+  {
+    id: 20,
+    title: "Signup and Login Form",
+    technology: "HTML , CSS , Bootstrap , Javascript",
+    category: "Form",
+    description:
+      "Built an interactive registration and login form form using JavaScript with real-time validation and dynamic tab switching. Implemented smooth transitions between form sections, ensuring a seamless user experience with error handling and responsive design.",
+    image: "src/assets/images/js-login-signup.png",
+    link: "https://github.com/Krupali236/js-login-signup",
+  },
+  {
+    id: 21,
+    title: "Video Website Application",
+    technology: "HTML , CSS , Bootstrap , Javascript",
+    category: "Application",
+    description:
+      "Developed a dynamic video website using JavaScript, featuring a powerful search functionality for quick content discovery. Implemented an intuitive UI with seamless video playback, filtering, and responsive design for an enhanced user experience.",
+    image: "src/assets/images/js-video-site.png",
+    link: "https://github.com/Krupali236/js-video-site",
+  },
+  {
+    id: 22,
+    title: "Image Gallary",
+    technology: "HTML , CSS , Bootstrap , Javascript",
+    category: "Application",
+    description:
+      "Created an interactive image rotation feature using JavaScript, allowing smooth and dynamic transformations.",
+    image: "src/assets/images/js-gallary.png",
+    link: "https://github.com/Krupali236/js-image-rotating",
+  },
+  {
+    id: 23,
+    title: "Image Slider",
+    technology: "HTML , CSS , Bootstrap , Javascript",
+    category: "Application",
+    description:
+      "Created an interactive image sliding feature using JavaScript, allowing smooth and dynamic transformations.",
+    image: "src/assets/images/js-image-gallary.png",
+    link: "https://github.com/Krupali236/js-image-slider",
+  },
+  {
+    id: 24,
+    title: "LUGX Website",
+    technology: "HTML , CSS , Bootstrap , Javascript",
+    category: "Website",
+    description:
+      "Designed a game website with a dynamic filter-based navigation system using JavaScript. Enabled users to seamlessly browse and sort games based on categories, popularity, and ratings for an enhanced user experience.",
+    image: "src/assets/images/js-lugx.png",
+    link: "https://github.com/Krupali236/js-lugx-website",
+  },
+  {
+    id: 25,
+    title: "Login Form",
+    technology: "HTML , TailwindCSS , React JS",
+    category: "Form",
+    description:
+      "Designed a game website with a dynamic filter-based navigation system using JavaScript. Enabled users to seamlessly browse and sort games based on categories, popularity, and ratings for an enhanced user experience.",
+    image: "src/assets/images/react-login.png",
+    link: "https://github.com/Krupali236/react-login-form",
+  },
+  {
+    id: 26,
+    title: "Registration Form",
+    technology: "HTML , TailwindCSS , React JS",
+    category: "Form",
+    description:
+      "Designed a game website with a dynamic filter-based navigation system using JavaScript. Enabled users to seamlessly browse and sort games based on categories, popularity, and ratings for an enhanced user experience.",
+    image: "src/assets/images/react-registration.png",
+    link: "https://github.com/Krupali236/react-registration-login",
+  },
+];  
