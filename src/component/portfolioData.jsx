@@ -252,7 +252,7 @@ export const portfolioData = [
   },
   {
     id: 26,
-    title: "Registration Form",
+    title: "Signup Form",
     technology: "HTML , TailwindCSS , React JS",
     category: "Form",
     description:
@@ -260,4 +260,64 @@ export const portfolioData = [
     image: "src/assets/images/react-registration.png",
     link: "https://github.com/Krupali236/react-registration-login",
   },
-];  
+  {
+    id: 27,
+    title: "Signup Form",
+    technology: "HTML , TailwindCSS , React JS",
+    category: "Form",
+    description:
+      "Designed a game website with a dynamic filter-based navigation system using JavaScript. Enabled users to seamlessly browse and sort games based on categories, popularity, and ratings for an enhanced user experience.",
+    image: "src/assets/images/react-signup.png",
+    link: "https://github.com/Krupali236/react-signup-form",
+  },
+  {
+    id: 28,
+    title: "Routing Form",
+    technology: "HTML , TailwindCSS , React JS",
+    category: "Form",
+    description:
+      "Designed a game website with a dynamic filter-based navigation system using JavaScript. Enabled users to seamlessly browse and sort games based on categories, popularity, and ratings for an enhanced user experience.",
+    image: "src/assets/images/react-routing-form.png",
+    link: "https://github.com/Krupali236/react-routing-form",
+  },
+  {
+    id: 29,
+    title: "Dynamic Routing Form",
+    technology: "HTML , TailwindCSS , React JS",
+    category: "Form",
+    description:
+      "Designed a game website with a dynamic filter-based navigation system using JavaScript. Enabled users to seamlessly browse and sort games based on categories, popularity, and ratings for an enhanced user experience.",
+    image: "src/assets/images/react-dynamic-routing-form.png",
+    link: "https://github.com/Krupali236/react-dynamic-routing-form/tree/main/react-dynamic-routing-form",
+  },
+  {
+    id: 30,
+    title: "React Redux",
+    technology: "HTML , TailwindCSS , React JS , React-Redux",
+    category: "Website",
+    description:
+      "Designed a game website with a dynamic filter-based navigation system using JavaScript. Enabled users to seamlessly browse and sort games based on categories, popularity, and ratings for an enhanced user experience.",
+    image: "src/assets/images/react-redux.png",
+    link: "https://github.com/Krupali236/my-flipcart-redux",
+  },
+  {
+    id: 31,
+    title: "React Context",
+    technology: "HTML , TailwindCSS , React JS",
+    category: "Website",
+    description:
+      "Designed a game website with a dynamic filter-based navigation system using JavaScript. Enabled users to seamlessly browse and sort games based on categories, popularity, and ratings for an enhanced user experience.",
+    image: "src/assets/images/react-context.png",
+    link: "https://github.com/Krupali236/my-flipcart-context",
+  },
+  {
+    id: 32,
+    title: "React API",
+    technology: "HTML , TailwindCSS , React JS",
+    category: "Website",
+    description:
+      "Designed a game website with a dynamic filter-based navigation system using JavaScript. Enabled users to seamlessly browse and sort games based on categories, popularity, and ratings for an enhanced user experience.",
+    image: "src/assets/images/react-api.png",
+    link: "https://github.com/Krupali236/my-product",
+  },
+];
