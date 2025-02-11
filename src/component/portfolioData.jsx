@@ -144,7 +144,7 @@ export const portfolioData = [
     id: 15,
     title: "Baby Outlet",
     technology: "HTML , CSS , Bootstrap",
-    category: "Application",
+    category: "Website",
     description:
       "Created a dynamic JavaScript template with a built-in filtering system, allowing users to search and sort data effortlessly. Designed for a smooth, interactive experience with using vanilla JavaScript.",
     image: "src/assets/images/js-babyoutlet-template.png",
@@ -202,9 +202,9 @@ export const portfolioData = [
   },
   {
     id: 21,
-    title: "Video Website Application",
+    title: "Video Website",
     technology: "HTML , CSS , Bootstrap , Javascript",
-    category: "Application",
+    category: "Website",
     description:
       "Developed a dynamic video website using JavaScript, featuring a powerful search functionality for quick content discovery. Implemented an intuitive UI with seamless video playback, filtering, and responsive design for an enhanced user experience.",
     image: "src/assets/images/js-video-site.png",
@@ -246,7 +246,7 @@ export const portfolioData = [
     technology: "HTML , TailwindCSS , React JS",
     category: "Form",
     description:
-      "Designed a game website with a dynamic filter-based navigation system using JavaScript. Enabled users to seamlessly browse and sort games based on categories, popularity, and ratings for an enhanced user experience.",
+      "Developed a responsive login form using React.js with real-time validation, state management, and secure authentication handling. Ensured a smooth user experience with interactive UI and error feedback.",
     image: "src/assets/images/react-login.png",
     link: "https://github.com/Krupali236/react-login-form",
   },
@@ -256,7 +256,7 @@ export const portfolioData = [
     technology: "HTML , TailwindCSS , React JS",
     category: "Form",
     description:
-      "Designed a game website with a dynamic filter-based navigation system using JavaScript. Enabled users to seamlessly browse and sort games based on categories, popularity, and ratings for an enhanced user experience.",
+      "Built a dynamic and responsive signup form using React.js, featuring real-time input validation, error handling, and seamless state management. Enhanced user experience with a clean UI and smooth form submission.",
     image: "src/assets/images/react-registration.png",
     link: "https://github.com/Krupali236/react-registration-login",
   },
@@ -266,7 +266,7 @@ export const portfolioData = [
     technology: "HTML , TailwindCSS , React JS",
     category: "Form",
     description:
-      "Designed a game website with a dynamic filter-based navigation system using JavaScript. Enabled users to seamlessly browse and sort games based on categories, popularity, and ratings for an enhanced user experience.",
+      "Developed a responsive signup form using React.js with real-time validation and state management. Ensured a smooth user experience with interactive UI, error handling, and seamless form submission.",
     image: "src/assets/images/react-signup.png",
     link: "https://github.com/Krupali236/react-signup-form",
   },
@@ -276,7 +276,7 @@ export const portfolioData = [
     technology: "HTML , TailwindCSS , React JS",
     category: "Form",
     description:
-      "Designed a game website with a dynamic filter-based navigation system using JavaScript. Enabled users to seamlessly browse and sort games based on categories, popularity, and ratings for an enhanced user experience.",
+      "Implemented client-side routing in a React website using React Router, enabling seamless navigation between pages. Ensured an efficient and dynamic user experience with structured route management and smooth transitions.",
     image: "src/assets/images/react-routing-form.png",
     link: "https://github.com/Krupali236/react-routing-form",
   },
@@ -286,7 +286,7 @@ export const portfolioData = [
     technology: "HTML , TailwindCSS , React JS",
     category: "Form",
     description:
-      "Designed a game website with a dynamic filter-based navigation system using JavaScript. Enabled users to seamlessly browse and sort games based on categories, popularity, and ratings for an enhanced user experience.",
+      "Implemented dynamic routing in a React-based website using React Router, enabling seamless navigation and parameter-based content rendering. Ensured an intuitive user experience with optimized route handling and page transitions.",
     image: "src/assets/images/react-dynamic-routing-form.png",
     link: "https://github.com/Krupali236/react-dynamic-routing-form/tree/main/react-dynamic-routing-form",
   },
@@ -296,7 +296,7 @@ export const portfolioData = [
     technology: "HTML , TailwindCSS , React JS , React-Redux",
     category: "Website",
     description:
-      "Designed a game website with a dynamic filter-based navigation system using JavaScript. Enabled users to seamlessly browse and sort games based on categories, popularity, and ratings for an enhanced user experience.",
+      "Developed a React-based website leveraging Redux for efficient state management, ensuring scalable and predictable data flow. Implemented actions, reducers, and the Redux store to enhance performance and maintainability.",
     image: "src/assets/images/react-redux.png",
     link: "https://github.com/Krupali236/my-flipcart-redux",
   },
@@ -306,7 +306,7 @@ export const portfolioData = [
     technology: "HTML , TailwindCSS , React JS",
     category: "Website",
     description:
-      "Designed a game website with a dynamic filter-based navigation system using JavaScript. Enabled users to seamlessly browse and sort games based on categories, popularity, and ratings for an enhanced user experience.",
+      "Implemented a React-based website utilizing Context API for efficient state management and global data sharing. Enhanced performance and maintainability by reducing prop drilling and ensuring seamless component communication.",
     image: "src/assets/images/react-context.png",
     link: "https://github.com/Krupali236/my-flipcart-context",
   },
@@ -316,7 +316,7 @@ export const portfolioData = [
     technology: "HTML , TailwindCSS , React JS",
     category: "Website",
     description:
-      "Designed a game website with a dynamic filter-based navigation system using JavaScript. Enabled users to seamlessly browse and sort games based on categories, popularity, and ratings for an enhanced user experience.",
+      "Developed a React-based website with seamless API handling, integrating dynamic data fetching, error handling, and real-time updates. Ensured efficient state management and a smooth user experience with optimized API calls.",
     image: "src/assets/images/react-api.png",
     link: "https://github.com/Krupali236/my-product",
   },

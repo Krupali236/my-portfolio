@@ -1,26 +1,37 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import {portfolioData} from "../component/portfolioData";
+import { portfolioData } from "../component/portfolioData";
 const Portfolio = () => {
   const navigate = useNavigate();
- 
   const [filteredData, setFilteredData] = useState(portfolioData); // Use filteredData to store the filtered results
-  const [activeCategory, setActiveCategory] = useState("all"); // Track the active category
+  const [activeCategory, setActiveCategory] = useState("All"); // Track the active category
+
+  // Function to shuffle an array
+  const shuffleArray = (array) => {
+    return array.sort(() => Math.random() - 0.5);
+  };
+
   const handleClick = (category) => {
     setActiveCategory(category); // Update the active category
     console.log("click");
     console.log(category, "category");
-    if (category == "all") {
+    if (category == "All") {
       setFilteredData(portfolioData); // If 'all' is selected, show all items
     } else {
       portfolioData.filter((ele) => {
         const filtered = portfolioData.filter(
           (ele) => ele.category === category
         );
-        setFilteredData(filtered); // Update the state with the filtered items based on category
+        // Shuffle the filtered data and set it
+        setFilteredData(shuffleArray([...filtered]));
+        // setFilteredData(filtered); // Update the state with the filtered items based on category
       });
     }
   };
+  // Shuffle data on component mount
+  useEffect(() => {
+    setFilteredData(shuffleArray([...portfolioData])); // Shuffle initial data
+  }, []);
   return (
     <>
       <h1 className="text-center font-bold text-[40px] py-3  decoration-2 underline underline-offset-8">
@@ -33,47 +44,19 @@ const Portfolio = () => {
       </p>
 
       <div className="container mt-10 mb-3 px-4">
+        {/* Filter Buttons */}
         <div className="flex justify-center my-5 mb-10">
-          <button
-            className={`bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700 ${
-              activeCategory === "all" ? "bg-slate-700" : ""
-            }`}
-            onClick={() => handleClick("all")}
-          >
-            All
-          </button>
-          <button
-            className={`bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700 ${
-              activeCategory === "Form" ? "bg-slate-700" : ""
-            }`}
-            onClick={() => handleClick("Form")}
-          >
-            Form
-          </button>
-          <button
-            className={`bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700 ${
-              activeCategory === "Website" ? "bg-slate-700" : ""
-            }`}
-            onClick={() => handleClick("Website")}
-          >
-            Website
-          </button>
-          <button
-            className={`bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700 ${
-              activeCategory === "Application" ? "bg-slate-700" : ""
-            }`}
-            onClick={() => handleClick("Application")}
-          >
-            Application
-          </button>
-          {/* <button
-            className={`bg-[#0563bb] text-white w-32 rounded-full mx-4 hover:bg-slate-700 ${
-              activeCategory === "React" ? "bg-slate-700" : ""
-            }`}
-            onClick={() => handleClick("React")}
-          >
-            React
-          </button> */}
+          {["All", "Form", "Website", "Application"].map((category) => (
+            <button
+              key={category}
+              className={`bg-[#0563bb] text-lg text-white w-36 rounded-full mx-4 hover:bg-slate-700 ${
+                activeCategory === category ? "bg-slate-700" : ""
+              }`}
+              onClick={() => handleClick(category)}
+            >
+              {category}
+            </button>
+          ))}
         </div>
 
         <div className="grid grid-cols-3 my-4 gap-10">
@@ -104,8 +87,16 @@ const Portfolio = () => {
           ))}
         </div>
         <div className="flex justify-center items-center flex-col">
-        <p className="text-center font-semibold italic my-5">Want to work together or see more of my work? Let’s connect! </p>
-        <button className="bg-[#0563bb] text-white rounded-3xl cursor-pointer" onClick={()=>navigate("/contact")}> Contact Me</button>
+          <p className="text-center font-semibold italic my-5">
+            Want to work together or see more of my work? Let’s connect!{" "}
+          </p>
+          <button
+            className="bg-[#0563bb] text-white rounded-3xl cursor-pointer"
+            onClick={() => navigate("/contact")}
+          >
+            {" "}
+            Contact Me
+          </button>
         </div>
       </div>
     </>
