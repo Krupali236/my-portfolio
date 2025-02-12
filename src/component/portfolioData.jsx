@@ -51,7 +51,7 @@ export const portfolioData = [
   },
   {
     id: 6,
-    title: "Template Design",
+    title: "Form Template Design",
     technology: "HTML , CSS",
     category: "Form",
     description:
@@ -62,9 +62,9 @@ export const portfolioData = [
 
   {
     id: 7,
-    title: "Wesite Template Design",
-    technology: "HTML , CSS , Bootstrap",
-    category: "Website",
+    title: "Coach Template Design",
+    technology: "HTML , CSS",
+    category: "Template",
     description:
       "Developed dynamic and visually appealing CSS layouts that enhance user experience with intuitive navigation, smooth animations, and optimized performance.",
     image: "src/assets/images/css-template-design.png",
@@ -73,8 +73,8 @@ export const portfolioData = [
   {
     id: 8,
     title: "Modern Chair Layout Template Design",
-    technology: "HTML , CSS, , Bootstrap",
-    category: "Website",
+    technology: "HTML , CSS ",
+    category: "Template",
     description:
       "Created scalable and reusable CSS layout templates using modern techniques like CSS Grid, Flexbox, and media queries to ensure cross-browser compatibility and responsiveness.",
     image: "src/assets/images/css-wesite-template.png",
@@ -82,9 +82,9 @@ export const portfolioData = [
   },
   {
     id: 9,
-    title: "Template Design",
-    technology: "HTML , CSS, Bootstrap",
-    category: "Website",
+    title: "Edugrids Template Design",
+    technology: "HTML , CSS",
+    category: "Template",
     description:
       "Built interactive and accessible CSS layouts tailored for various web applications, ensuring pixel-perfect design, smooth transitions, and optimized performance.",
     image: "src/assets/images/css-template.png",
@@ -92,9 +92,9 @@ export const portfolioData = [
   },
   {
     id: 10,
-    title: "Template Design",
-    technology: "HTML , CSS , Bootstrap",
-    category: "Website",
+    title: "Softypinko Template Design",
+    technology: "HTML , CSS ",
+    category: "Template",
     description:
       "Developed elegant and fully responsive CSS form templates with custom styling, smooth animations, and intuitive layouts.",
     image: "src/assets/images/css-template-softypinko.png",
@@ -102,9 +102,9 @@ export const portfolioData = [
   },
   {
     id: 11,
-    title: "Template Design",
-    technology: "HTML , CSS , Bootstrap",
-    category: "Website",
+    title: "Inance Template Design",
+    technology: "HTML , CSS",
+    category: "Template",
     description:
       "Built interactive and accessible CSS layouts tailored for various web applications, ensuring pixel-perfect design, smooth transitions, and optimized performance.",
     image: "src/assets/images/css-template-inance.png",
@@ -112,9 +112,9 @@ export const portfolioData = [
   },
   {
     id: 12,
-    title: "Template Design",
+    title: "MDRN Template Design",
     technology: "HTML , CSS",
-    category: "Website",
+    category: "Template",
     description:
       "Created scalable and reusable CSS layout templates using modern techniques like CSS Grid, Flexbox, and media queries to ensure cross-browser compatibility and responsiveness.",
     image: "src/assets/images/css-template-mdrn.png",
@@ -122,9 +122,9 @@ export const portfolioData = [
   },
   {
     id: 13,
-    title: "Sign in page Template Design",
-    technology: "HTML , CSS , Bootstrap",
-    category: "Website",
+    title: "LUGX Template Design",
+    technology: "HTML , CSS",
+    category: "Template",
     description:
       "Engineered well-structured and responsive web layouts with CSS, focusing on usability, accessibility, and seamless user interaction across all screen sizes.",
     image: "src/assets/images/css-template-lugx.png",
@@ -143,7 +143,7 @@ export const portfolioData = [
   {
     id: 15,
     title: "Baby Outlet",
-    technology: "HTML , CSS , Bootstrap",
+    technology: "HTML , CSS , Bootstrap , Javascript",
     category: "Website",
     description:
       "Created a dynamic JavaScript template with a built-in filtering system, allowing users to search and sort data effortlessly. Designed for a smooth, interactive experience with using vanilla JavaScript.",
@@ -319,5 +319,85 @@ export const portfolioData = [
       "Developed a React-based website with seamless API handling, integrating dynamic data fetching, error handling, and real-time updates. Ensured efficient state management and a smooth user experience with optimized API calls.",
     image: "src/assets/images/react-api.png",
     link: "https://github.com/Krupali236/my-product",
+  },
+  {
+    id: 33,
+    title: "Build Template Design",
+    technology: "HTML , CSS , Bootstrap",
+    category: "Template",
+    description:
+      "Designed with simplicity and functionality in mind, this Bootstrap template provides a responsive, polished layout with smooth animations and intuitive navigation for a professional web presence.",
+    image: "src/assets/images/bootstrap-build-website-template.png",
+    link: "https://github.com/Krupali236/bootstrap-build-website-template",
+  },
+  {
+    id: 34,
+    title: "Education Template Design",
+    technology: "HTML , CSS , Bootstrap",
+    category: "Template",
+    description:
+      "A feature-rich Bootstrap template offering a stylish layout, responsive design, and easy customization. Ideal for creative portfolios, corporate sites, and startups looking for a professional online presence.",
+    image: "src/assets/images/bootstrap-education-template.png",
+    link: "https://github.com/Krupali236/bootstrap-education-template",
+  },
+  {
+    id: 35,
+    title: "ClaimM4 Template Design",
+    technology: "HTML , CSS , Bootstrap",
+    category: "Template",
+    description:
+      "A sleek and versatile Bootstrap template with a clean, modern design. Perfect for portfolios, business websites, and personal projects, ensuring a seamless user experience across all devices.",
+    image: "src/assets/images/bootstrap-claimm4-webiste-template.png",
+    link: "https://github.com/Krupali236/bootstrap-claimm4-template",
+  },
+  {
+    id: 36,
+    title: "Dashboard Template Design",
+    technology: "HTML , CSS , Bootstrap",
+    category: "Template",
+    description:
+      "Elegant and responsive Bootstrap template designed for professionals. Fully customizable, mobile-friendly, and packed with modern UI components to create stunning websites effortlessly.",
+    image: "src/assets/images/bootstrap-dashboard-template.png",
+    link: "https://github.com/Krupali236/bootstrap-dashboard-template",
+  },
+  {
+    id: 37,
+    title: "Rentiz Template Design",
+    technology: "HTML , CSS , Bootstrap",
+    category: "Template",
+    description:
+      "A dynamic and engaging Bootstrap template, perfect for building visually appealing websites. With built-in responsiveness and modern aesthetics, it’s great for businesses, freelancers, and creatives.",
+    image: "src/assets/images/bootstrap-rentiz-website-template.png",
+    link: "https://github.com/Krupali236/bootstrap-rentiz-website-template",
+  },
+  {
+    id: 38,
+    title: "Opul Template Design",
+    technology: "HTML , CSS , Bootstrap",
+    category: "Template",
+    description:
+      "Designed with simplicity and functionality in mind, this Bootstrap template provides a responsive, polished layout with smooth animations and intuitive navigation for a professional web presence.",
+    image: "src/assets/images/bootstrap-website-template-opul.png",
+    link: "https://github.com/Krupali236/bootstrap-opul-website-template",
+  },
+  {
+    id: 39,
+    title: "SELHONO",
+    technology: "HTML , CSS , Bootstrap",
+    category: "Website",
+    description:
+      "A dynamic and engaging Bootstrap template, perfect for building visually appealing websites. With built-in responsiveness and modern aesthetics, it’s great for businesses, freelancers, and creatives.",
+    image: "src/assets/images/bootstrap-website-selhono.png",
+    link: "https://github.com/Krupali236/bootstrap-selhono",
+  },
+  {
+    id: 40,
+    title: "School Genuine Template",
+    technology: "HTML , CSS , Bootstrap",
+    category: "Template",
+    description:
+      "A responsive and modern Bootstrap template designed for seamless user experience. Featuring a clean layout, customizable components, and mobile-friendly design, it's perfect for websites, and business projects.",
+    image: "src/assets/images/bootstrap-template.png",
+    link: "https://github.com/Krupali236/bootstrap-template",
   },
 ];

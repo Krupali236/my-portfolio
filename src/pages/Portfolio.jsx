@@ -24,7 +24,6 @@ const Portfolio = () => {
         );
         // Shuffle the filtered data and set it
         setFilteredData(shuffleArray([...filtered]));
-        // setFilteredData(filtered); // Update the state with the filtered items based on category
       });
     }
   };
@@ -46,7 +45,7 @@ const Portfolio = () => {
       <div className="container mt-10 mb-3 px-4">
         {/* Filter Buttons */}
         <div className="flex justify-center my-5 mb-10">
-          {["All", "Form", "Website", "Application"].map((category) => (
+          {["All", "Form", "Template", "Website", "Application"].map((category) => (
             <button
               key={category}
               className={`bg-[#0563bb] text-lg text-white w-36 rounded-full mx-4 hover:bg-slate-700 ${
