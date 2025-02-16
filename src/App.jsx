@@ -1,13 +1,13 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home";
-import Skill from "./pages/Skills";
 import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 import Navbar from "./navbar/navbar";
 import Footer from "./pages/Footer";
+import Bg from "./assets/images/bg2.jpg";
 
 export default function App() {
   // Add a fixed delay so you can see the loading state
@@ -17,7 +17,10 @@ export default function App() {
       element: (
         <>
           <div className="container:full">
-            <div className="bg-[url(/src/assets/images/bg.jpg)] grid grid-cols-12 h-screen">
+            <div
+              className="grid grid-cols-12 h-screen bg-no-repeat bg-cover bg-center"
+              style={{ backgroundImage: `url(${Bg})` }}
+            >
               <div className="col-span-2">
                 <Navbar />
               </div>

@@ -1,4 +1,4 @@
-import bg from "./../assets/images/bg.jpg";
+import bg from "./../assets/images/profile1.jpg";
 import chevronRight from "./../assets/chevronRight.svg";
 import Skill from "./Skills";
 const About = () => {
@@ -23,7 +23,7 @@ const About = () => {
         <div className="col-span-8">
           <h3 className="font-bold text-4xl my-3">Frontend Developer</h3>
           <p className="text-2xl my-3 font-semibold italic">Krupali Lalakiya</p>
-          <div className="grid grid-cols-2">
+          <div className="grid">
             <div className="columns-1 my-3">
               <div className="flex my-5">
                 <img
@@ -59,8 +59,6 @@ const About = () => {
                   City :<span className="font-normal ps-4"> Rajkot </span>{" "}
                 </p>
               </div>
-            </div>
-            <div className="columns-1 my-3">
               <div className="flex my-5">
                 <img
                   src={chevronRight}
@@ -84,20 +82,58 @@ const About = () => {
                 </p>
               </div>
               <div className="flex my-5">
-                <img
-                  src={chevronRight}
-                  alt="chevronRight"
-                  width="20px"
-                  height="20px"
-                />
-                <p className="font-bold text-xl ps-2">
-                  Email :
-                  <span className="font-normal ps-4">
-                    krupali.lalakiya236@gmail.com
-                  </span>{" "}
-                </p>
-              </div>
+                  <img
+                    src={chevronRight}
+                    alt="chevronRight"
+                    width="20px"
+                    height="20px"
+                  />
+                  <p className="font-bold text-xl ps-2">
+                    Email :
+                    <span className="font-normal ps-4">
+                      krupali.lalakiya236@gmail.com
+                    </span>
+                  </p>
+                </div>
             </div>
+            {/* <div className="columns-1 my-3">
+                <div className="flex my-5">
+                  <img
+                    src={chevronRight}
+                    alt="chevronRight"
+                    width="20px"
+                    height="20px"
+                  />
+                  <p className="font-bold text-xl ps-2">
+                    Age :<span className="font-normal ps-4">23</span>{" "}
+                  </p>
+                </div>
+                <div className="flex my-5">
+                  <img
+                    src={chevronRight}
+                    alt="chevronRight"
+                    width="20px"
+                    height="20px"
+                  />
+                  <p className="font-bold text-xl ps-2">
+                    Degree :<span className="font-normal ps-4">MCA</span>{" "}
+                  </p>
+                </div>
+                <div className="flex my-5">
+                  <img
+                    src={chevronRight}
+                    alt="chevronRight"
+                    width="20px"
+                    height="20px"
+                  />
+                  <p className="font-bold text-xl ps-2">
+                    Email :
+                    <span className="font-normal ps-4">
+                      krupali.lalakiya236@gmail.com
+                    </span>{" "}
+                  </p>
+                </div>
+              </div> */}
           </div>
           <div className="grid">
             <p className="text-lg font-semibold">
