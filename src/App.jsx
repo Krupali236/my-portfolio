@@ -16,12 +16,32 @@ export default function App() {
       path: "/",
       element: (
         <>
-          <div className="container:full">
+          {/* <div className="container:full">
             <div
               className="grid grid-cols-12 h-screen bg-no-repeat bg-cover bg-center"
-              style={{ backgroundImage: `url(${Bg})` }}
+              style={{ backgroundImage: `url(${Bg})`}}
             >
               <div className="col-span-2">
+                <Navbar />
+              </div>
+              <div className="col-span-10">
+                <Home />
+              </div>
+            </div>
+          </div> */}
+          <div className="relative h-screen">
+            {/* Background Image */}
+            <div
+              className="absolute inset-0 bg-cover bg-center"
+              style={{
+                backgroundImage: `url(${Bg})`,
+                opacity: 0.5, // Adjust opacity (0.1 - 1)
+              }}
+            ></div>
+
+            {/* Content with Grid */}
+            <div className="relative grid grid-cols-12 h-screen">
+              <div className="col-span-2 bg-opacity-20">
                 <Navbar />
               </div>
               <div className="col-span-10">

@@ -9,7 +9,6 @@ const Navbar = () => {
   const navigate = useNavigate();
   return (
     <>
-
       <div className="navigation flex items-center">
         <ul className="flex flex-col ms-6">
           <NavLink to="/">

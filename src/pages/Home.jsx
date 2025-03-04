@@ -8,10 +8,10 @@ export default function Home() {
     <>
       <div className="h-full w-full flex items-center justify-center">
         <div className="flex flex-col">
-          <h1 className="font-extrabold my-6 text-[60px] text-blue-100">
+          <h1 className="font-extrabold my-6 text-[60px] text-slate-700">
             Krupali Lalakiya
           </h1>
-          <h3 className="font-semibold text-4xl text-slate-700 bg-blue-200 px-5  p-2">
+          <h3 className="font-semibold text-4xl text-slate-700 px-5 p-2">
             I'm Frontend Devloper
           </h3>
           <div className="flex mt-6">
